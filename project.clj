@@ -1,8 +1,8 @@
-(defproject com.amazonaws/aws-apigateway-importer "1.0.3-SNAPSHOT" 
+(defproject com.amazonaws/aws-apigateway-importer "1.0.3-SNAPSHOT"
   :parent [org.sonatype.oss/oss-parent "7"]
-  :resource-paths ["${project.basedir}"]
-  :source-paths ["${basedir}/src"]
-  :test-paths ["${basedir}/tst"]
+;;   :resource-paths ["${project.basedir}"]
+  :source-paths ["src"]
+  :test-paths ["tst"]
   :dependencies [[com.amazonaws/aws-apigateway-sdk-java "1.1.1"]
                  [com.amazonaws/aws-hal-client-java "1.3.0"]
                  [com.amazonaws/aws-java-sdk-core "[1.8.6,2.0)"]
@@ -21,6 +21,5 @@
                  [org.apache.httpcomponents/httpclient "4.3.3"]
                  [junit "4.10"]
                  [org.mockito/mockito-all "2.0.2-beta"]
-                 [com.fasterxml.jackson.core/jackson-annotations
-                  "2.5.0"]
+                 [com.fasterxml.jackson.core/jackson-annotations "2.5.0"]
                  [com.fasterxml.jackson.core/jackson-core "2.5.0"]])
