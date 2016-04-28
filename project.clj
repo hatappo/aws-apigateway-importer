@@ -5,7 +5,7 @@
   :test-paths ["tst"]
   :dependencies [[com.amazonaws/aws-apigateway-sdk-java "1.1.1"]
                  [com.amazonaws/aws-hal-client-java "1.3.0"]
-                 [com.amazonaws/aws-java-sdk-core "[1.8.6,2.0)"]
+                 [com.amazonaws/aws-java-sdk-core "1.10.72" :exclusions [joda-time]]
                  [org.glassfish/javax.json "1.0-b06"]
                  [de.weltraumschaf.commons/jcommander "2.0.0"]
                  [com.google.inject/guice "4.0"]
